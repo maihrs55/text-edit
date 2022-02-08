@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["ES2020", "DOM"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2015",
+    "incremental": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts"]
+}
