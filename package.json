@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "pnpm run --filter=./pkg _:generate",
+    "dev": "pnpm run generate && pnpm run --parallel --filter=./pkg _:dev"
   },
   "keywords": [],
   "author": "",
